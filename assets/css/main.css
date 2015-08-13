@@ -1,3 +1,13 @@
+/*Colors: 
+light gray #E8E8E8 
+dark gray #484944 
+dark blue #29405A 
+dark red #600b0b 
+white #FFFFFF
+black #000000
+*/
+
+
 html, body {
 	margin: 0;
 	padding: 0;
@@ -9,6 +19,20 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
 	font-family: helvetica;
+<<<<<<< HEAD
+	font-size: 16px;
+	line-height: 23px;
+}
+
+a {
+	color: #600b0b;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #29405A;
+}
+=======
 	font-size: 12px;
 	line-height: 17px;
 }
@@ -19,3 +43,4 @@ p {
 	light grey #f6f6f6
 	red #ee0000
 	dark blue #334867 */
+>>>>>>> 392bdacce1ba38c897fb7c5154c64a7828a3f2d7

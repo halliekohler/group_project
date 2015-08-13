@@ -1,0 +1,265 @@
+/*Colors: 
+light gray #E8E8E8 
+dark gray #484944 
+dark blue #29405A 
+dark red #600b0b 
+white #FFFFFF
+black #000000
+*/
+
+/*HEADER / NAV*/
+
+#headerfixed{
+	z-index: 10;
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.navbar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60%;
+	background-color: #424242;
+	height: 50px;
+	margin-top: 0;
+}
+
+li {
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+}
+
+.navbutton {
+	font-family: helvetica;
+	color: white;
+	text-decoration: none;
+	padding: 16px 10px;
+	margin: 0px 10px;
+}
+
+.navbutton:hover {
+	background-color: #29405A;
+	color: white;
+}
+
+/*HOVER OVER DONATE*/
+
+#donate {
+/*	position: absolute;
+	top: -300;
+	right: 0;*/
+	padding: 50px;
+	width: 100%;
+	height: 300px;
+	background-color: #600b0b;
+}
+
+.donatetab {
+	position: absolute;
+	bottom: -50px;
+	right: 0;
+	width: 40%;
+	background-color: #600b0b;
+	height: 50px;
+	text-align: center;
+}
+
+#clearformat {
+	margin: 0;
+	padding: 0;
+}
+
+.donatetabtext {
+	font-family: helvetica;
+	font-weight: 500;
+	font-size: 20px;
+	color: white;
+	margin-top: 0;
+}
+
+.whiteondark {
+	color: white;
+	margin-top: 0;
+}
+
+.amountbutton {
+	float: left;
+	border-radius: 10px;
+	padding: 18px 10px 0 10px;
+	margin-right: 20px;
+	border: 3px solid white;
+	background-color: #424242;
+	cursor: pointer;
+}
+
+.amountbutton:hover {
+	background-color: #29405A;
+}
+
+.amountsubmit {
+	float: left;
+	border-radius: 10px;
+	padding: 18px 10px 0 10px;
+	margin-right: 20px;
+	border: 3px solid white;
+	background-color: #600b0b;
+	cursor: pointer;
+}
+
+#vertpadding {
+	padding-top: 40px;
+}
+
+p.donateinfo {
+	clear: both;
+	width: 85%;
+	font-size: 18px;
+	color: white;
+	line-height: 30px;
+}
+
+/*BANNER IMAGE*/
+
+#margintopbody {
+	margin-top: 50px;
+}
+
+#homebanner {
+	background: url("http://america.aljazeera.com/content/dam/ajam/images/articles_2014/09/Ebola_090314.jpg");
+	background-position: 50% 0;
+	background-size: cover;
+	height: 600px;
+	text-align: center;
+}
+
+.homebanneroverlay {
+	background-color: #600b0b;
+	opacity: 0.3;
+	height: 100%;
+	width: 100%;
+}
+
+/*.textblock-banner1 {
+	background-color: white;
+	padding: 20px;
+	margin: 0 auto;
+	top: 270px;
+	left: 0;
+}
+
+.textblock-banner1 > h1 {
+	font-family: helvetica;
+	font-size: 54px;
+	color: #600b0b;
+}
+
+
+
+.textblock-banner2 {
+	background-color: white;
+	padding: 20px;
+	font-family: helvetica !important;
+	font-size: 28px;
+	margin: 0;
+	color: #600b0b;
+	position: absolute;
+	top: 340px;
+	left: 50px;
+}*/
+
+.homebannertext {
+	box-sizing: border-box;
+	position: absolute;
+	color: white;
+	top: 270px;
+	left: 0 auto;
+	width: 100%;
+	padding: 0 25px;
+	margin-top: 0;
+	margin-bottom: 0;
+	display: block;
+}
+
+/*BLUE BANNER*/
+
+.bannerparent {
+	float: left;
+	width: 100%;
+	background-color: #29405A;
+	text-align: center;
+}
+
+.bannerchild {
+	margin: 0 auto;
+	color: #FFFFFF;
+	padding: 30px 10px;
+	width: 100%;
+	max-width: 900px;
+	box-sizing: border-box;
+}
+
+.bannertext {
+	margin: 0 auto;
+	font-size: 18px;
+}
+
+/*FAQ SECTION*/
+
+.headercenter {
+	/*margin-top: 150px;*/
+	text-align: center;
+	padding: 20px;
+	color: #600b0b;
+}
+
+#faqsection {
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+/*	padding: 20px;*/
+	box-sizing: border-box;
+/*	text-align: center;*/
+	background-color: #E8E8E8;
+}
+
+#faqwrapper {
+/*	margin-top: 40px;
+	margin-bottom: 40px;*/
+	margin: 0 auto;
+	width: 60%;
+	max-width: 900px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.clear-fix{
+	clear: both;
+}
+.faqleftcol {
+	float: left;
+	width: 45%;
+	padding: 20px;
+}
+
+.faqrightcol {
+	float: right;
+	width: 45%;
+	padding: 20px;
+}
+
+.faqcontent {
+	display: block;
+	margin: 20px 0;
+	border-bottom: 1px solid #600b0b;
+}
+
+.faqcontent > h2 {
+	color: #600b0b;
+}
+
+/**/
+
