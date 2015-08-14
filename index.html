@@ -3,6 +3,7 @@
 	<head>
 		<title>Curing Ebola</title>
 		<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/bottom_3.css">
 	</head>
 
 	<style>
@@ -15,220 +16,6 @@
 	red #ee0000
 	dark blue #334867 */
 
-
-	h2{
-		letter-spacing: 2px;
-		color: #ee0000;
-		text-align: center;
-	}
-
-	.strong{
-		font-weight: bold;
-	}
-
-
-	#statistics_top{
-		width: 100%;
-		height: 700px;
-		padding-top: 100px;
-		margin-top: 50px;
-		background-color: #f6f6f6;
-		float:left;
-	}
-
-	#statistics_bottom{
-		width: 100%;
-		height: 100px;
-		background-color: #585959;
-		float:left;
-	}
-	
-		.content_wrapper{
-			width: 900px;
-			margin: 0 auto;
-		}
-
-			.numbers{
-				width: 246px;
-				padding: 10px;
-				margin: 15px;
-
-				border-radius: 10px;
-				float: left;
-			}
-
-				table, th, td {
-			    	border: 2px solid #dedede;
-			    	border-collapse: collapse;
-			    	font-family: helvetica;
-			    	font-size: 12px;
-			    	letter-spacing: 2px;
-				}
-
-				th, td {
-				    padding: 8px;
-				}
-
-			.msf{
-				color: #334867;
-				width: 246px;
-				padding: 10px;
-				margin: 15px;
-				background-color: #f6f6f6;
-				border: 2px solid #dedede;
-				float: left;
-			}
-			
-			.msf > p{
-				font-family: helvetica;
-				font-size: 13px;
-				line-height: 18px;
-				letter-spacing: 2px;
-
-				}	
-
-
-
-			.maps{
-				width: 246px;
-				padding: 10px;
-				margin: 15px;
-				float: left;
-				
-			}
-
-			a{
-				text-decoration: none;
-				color: #ee0000;
-			}
-			
-			a:hover{
-				color: #334867;
-			}
-
-			.sources_wrapper{
-				width: 742.391px;
-				margin: 0 auto;
-			}
-
-			.sources{
-				font-family: helvetica;
-				font-size: 13px;
-				line-height: 18px;
-				letter-spacing: 2px;
-				padding: 15px;
-				margin: 10px 0;
-				text-align: center;
-				float: left;
-				clear: both;
-
-			}
-
-			ul{
-				list-style-type: none;
-				display: inline;
-			}
-
-			li{
-				display: inline-block;
-			}
-			
-			li > a{
-				border: 2px solid #ee0000;
-				padding: 10px;
-				margin: 0px 30px;
-			}
-
-			li>a:hover{
-				color: #ffffff;
-				border: 2px solid #ffffff;
-			}
-	
-	#gallery{
-		width: 100%;
-		height: 768px;
-		background-color: #000000;
-		float: left;
-		display: block;
-	}
-
-
-		.photos{
-			padding-top: 40px;
-		
-		}
-
-		.photos img {
-			float: left;
-			width: 300px;
-			padding: 10px;
-			padding:30px;
-			box-sizing: border-box;
-
-}
-
-
-	#contact{
-		width: 100%;
-		height: 600px;
-		background-color: #dedede;
-		float: left;
-		clear: both;
-	}	
-
-
-		#form-main{
-		width:100%;
-		float:left;
-		padding-top:0px;
-		}
-
-		#form-div {
-			background-color:rgba(72,72,72,0.6);
-			padding-left:35px;
-			padding-right:35px;
-			padding-top:35px;
-			padding-bottom:50px;
-			width: 450px;
-			float: left;
-			left: 50%;
-			position: absolute;
-		  	margin-top:100px;
-			margin-left: -260px;
-			margin-bottom: 50px;
-
-		}
-
-			.feedback-input {
-				color:#3c3c3c;
-				font-family: Helvetica;
-				font-size: 12px;
-				line-height: 22px;
-				background-color: #ffffff;
-				padding: 13;
-				margin-bottom: 10px;
-				width:98%;
-				border: 3px solid rgba(0,0,0,0);
-			}
-
-
-			#button-blue{
-				font-family: Georgia;
-				float:left;
-				width: 100%;
-				border: #ffffff solid 4px;
-				background-color: #334867;
-				color:white;
-				font-size:24px;
-				padding-top:22px;
-				padding-bottom:22px;
-			  	margin-top:-4px;
-			}
-
-			#button-blue:hover{
-				background-color: rgba(0,0,0,0);
-				color: #334867;
-			}
 
 
 
@@ -307,12 +94,12 @@
 			<div class = "sources_wrapper">	
 				<div class = "sources">
 					<nav>
-						<ul>
-							<li> <h2><span style= "color: white">Sources:</span></h2>
+						<ul class= "sources_nav">
+							<li class = "source_link"> <h2><span style= "color: white">Sources:</span></h2>
 							</li>
-							<li> <a href = "http://apps.who.int/ebola/ebola-situation-reports" target="_blank">World Health Organization</a>
+							<li class = "source_link"> <a href = "http://apps.who.int/ebola/ebola-situation-reports" target="_blank">World Health Organization</a>
 							</li>
-							<li> <a href= "http://www.doctorswithoutborders.org/our-work/medical-issues/ebola" target="_blank">Doctors Without Borders</a>
+							<li class = "source_link"> <a href= "http://www.doctorswithoutborders.org/our-work/medical-issues/ebola" target="_blank">Doctors Without Borders</a>
 							</li>
 						</ul>
 					</nav>
