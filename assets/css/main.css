@@ -8,6 +8,13 @@ black #000000
 */
 
 
+/*	ALT:
+	dark grey #585959
+	med grey #dedede
+	light grey #f6f6f6
+	red #ee0000
+	dark blue #334867 */
+
 html, body {
 	margin: 0;
 	padding: 0;
@@ -38,9 +45,4 @@ a:hover {
 }
 
 
-/*	dark grey #585959
-	med grey #dedede
-	light grey #f6f6f6
-	red #ee0000
-	dark blue #334867 */
 >>>>>>> 392bdacce1ba38c897fb7c5154c64a7828a3f2d7
