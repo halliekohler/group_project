@@ -29,13 +29,16 @@
 
 	#statistics_top{
 		width: 100%;
-		height: 668px;
+		height: 700px;
+		padding-top: 100px;
+		margin-top: 50px;
 		background-color: #f6f6f6;
 		float:left;
 	}
+
 	#statistics_bottom{
 		width: 100%;
-		height: 200px;
+		height: 100px;
 		background-color: #585959;
 		float:left;
 	}
@@ -114,7 +117,7 @@
 				line-height: 18px;
 				letter-spacing: 2px;
 				padding: 15px;
-				margin: 60px 0;
+				margin: 10px 0;
 				text-align: center;
 				float: left;
 				clear: both;
@@ -144,26 +147,31 @@
 	#gallery{
 		width: 100%;
 		height: 768px;
-		background-color: #ffffff;
+		background-color: #000000;
 		float: left;
 		display: block;
 	}
 
 
 		.photos{
-
+			padding-top: 40px;
+		
 		}
 
-		.photos<img{
+		.photos img {
+			float: left;
+			width: 300px;
 			padding: 10px;
-		}
+			padding:30px;
+			box-sizing: border-box;
+
+}
 
 
 	#contact{
 		width: 100%;
-		height: 500px;
+		height: 600px;
 		background-color: #dedede;
-		background-image: url("./assets/images/image3.png");
 		float: left;
 		clear: both;
 	}	
@@ -187,6 +195,7 @@
 			position: absolute;
 		  	margin-top:100px;
 			margin-left: -260px;
+			margin-bottom: 50px;
 
 		}
 
@@ -198,7 +207,7 @@
 				background-color: #ffffff;
 				padding: 13;
 				margin-bottom: 10px;
-				width:100%;
+				width:98%;
 				border: 3px solid rgba(0,0,0,0);
 			}
 
@@ -207,7 +216,7 @@
 				font-family: Georgia;
 				float:left;
 				width: 100%;
-				border: #fbfbfb solid 4px;
+				border: #ffffff solid 4px;
 				background-color: #334867;
 				color:white;
 				font-size:24px;
@@ -317,46 +326,37 @@
 
 		<div id = "gallery">
 
-<!-- 			<div clas= "content_wrapper">
+			<div class = "content_wrapper">
 				<div class="photos">
 					<div>
 						<img src="./assets/images/gal_img1.jpg" width="200px;">
 					</div>
 					<div>		
-						<img src="./assets/images/gal_img1.jpg" width="200px;">
+						<img src="./assets/images/gal_img2.jpg" width="200px;">
 					</div>
 					<div>	
-						<img src ="./assets/images/gal_img1.jpg" width="200px;">
+						<img src ="./assets/images/gal_img3.jpg" width="200px;">
 					</div>
 					<div>
-						<img src="./assets/images/gal_img1.jpg" width="200px;">
+						<img src="./assets/images/gal_img4.jpg" width="200px;">
 					</div>		
 					<div>	
-						<img src ="./assets/images/gal_img1.jpg" width="200px;">
+						<img src ="./assets/images/gal_img5.jpg" width="200px;">
 					</div>
 					<div>
-						<img src="./assets/images/gal_img1.jpg" width="200px;">
+						<img src="./assets/images/gal_img6.jpg" width="200px;">
 					</div>
 					<div>	
-						<img src ="./assets/images/gal_img1.jpg" width="200px;">
+						<img src ="./assets/images/gal_img7.jpg" width="200px;">
 					</div>
 					<div>
-						<img src="./assets/images/gal_img1.jpg" width="200px;">
+						<img src="./assets/images/gal_img8.jpg" width="200px;">
 					</div>	
 					<div>	
-						<img src ="./assets/images/gal_img1.jpg" width="200px;">
-					</div>
-					<div>
-						<img src="./assets/images/gal_img1.jpg" width="200px;">
-					</div>
-					<div>
-						<img src ="./assets/images/gal_img1.jpg" width="200px;">
-					</div>
-					<div>
-						<img src="./assets/images/gal_img1.jpg" width="200px;">
+						<img src ="./assets/images/gal_img9.jpg" width="200px;">
 					</div>
 				</div>
-			</div> -->
+			</div>
 
 
 		</div>
@@ -366,7 +366,7 @@
 
 			<div id="form-main">
 			  <div id="form-div">
-			    <form class="form" id="form1">
+			    <form class="form">
 			      
 			      <p class="name">
 			        <input name="name" type="text" class="feedback-input" placeholder="Name" />
@@ -383,10 +383,10 @@
 			      
 			      <div class="submit">
 			        <input type="submit" value="SEND" id="button-blue"/>
-			  
-			      </div>
-			    </form>
-			  </div>
+		  
+		      </div>
+		    </form>
+		  </div>
 
 		</div>
 
