@@ -47,16 +47,41 @@ li {
 	color: white;
 }
 
+#navicon {
+	content: url("http://breonrydell.com/wp-content/themes/BGR-theme/images/menu-button.svg");
+	display: none;
+	float: left;
+}
+
+			@media only screen and (max-width: 880px) {
+				.navbar {
+					width: 15%;
+				}
+
+				#navicon {
+					display: block;
+					padding: 10px 20px;
+				}
+
+				nav {
+					display: none;
+				}
+			}
+
 /*HOVER OVER DONATE*/
 
-#donate {
+#donatehover {
 /*	position: absolute;
 	top: -300;
 	right: 0;*/
+	position: relative;
+	z-index: 10;
 	padding: 50px;
 	width: 100%;
-	height: 300px;
+	height: auto;
+	top: -10000px;
 	background-color: #600b0b;
+	box-sizing: border-box;
 }
 
 .donatetab {
@@ -89,26 +114,37 @@ li {
 
 .amountbutton {
 	float: left;
+	width: 20%;
 	border-radius: 10px;
 	padding: 18px 10px 0 10px;
-	margin-right: 20px;
 	border: 3px solid white;
 	background-color: #424242;
 	cursor: pointer;
+	box-sizing: border-box;
 }
 
 .amountbutton:hover {
 	background-color: #29405A;
 }
 
+.on {
+	background-color: #29405A;
+}
+
+.off {
+	background-color: #424242;
+}
+
 .amountsubmit {
 	float: left;
+	width: 20%;
 	border-radius: 10px;
 	padding: 18px 10px 0 10px;
 	margin-right: 20px;
 	border: 3px solid white;
 	background-color: #600b0b;
 	cursor: pointer;
+	box-sizing: border-box;
 }
 
 #vertpadding {
@@ -122,6 +158,30 @@ p.donateinfo {
 	color: white;
 	line-height: 30px;
 }
+
+		@media only screen and (max-width: 880px) {
+			
+			.donatetab {
+				width: 85%;
+			}
+
+			.amountbutton {
+				display: inline-block;
+				width: 50%;
+				padding: 13px 5px 0 5px;
+				margin-right: 0px;
+				box-sizing: border-box;
+			}
+
+			.amountsubmit {
+				display: inline-block;
+				width: 50%;
+				padding: 13px 5px 0 5px;
+				margin-right: 0px;
+				box-sizing: border-box;
+			}
+
+		}
 
 /*BANNER IMAGE*/
 
@@ -185,6 +245,58 @@ p.donateinfo {
 	display: block;
 }
 
+.bannertextsmall {
+	font-family: helvetica !important; 
+	font-weight: 400; 
+	font-size: 28px; 
+	margin-bottom: 0; 
+	color: white;
+}
+
+
+.bannertextlarge {
+	font-family: helvetica !important; 
+	font-weight: 800; 
+	font-size: 54px; 
+	margin-top: 10px; 
+	color: white;
+}
+
+			@media only screen and (max-width: 880px) {
+				#homebanner {
+					height: 400px;
+				}
+
+				.homebannertext {
+					top: 130px;
+				}
+
+
+			}
+
+
+			@media only screen and (max-width: 550px) {
+				#homebanner {
+					height: 350px;
+				}
+
+				.homebannertext {
+					top: 130px;
+				}
+
+				.bannertextsmall {
+						font-size: 15px; 
+						margin-bottom: 0; 
+						color: white;
+				}
+
+				.bannertextlarge {
+					font-size: 45px; 
+					margin-top: 10px; 
+					color: white;
+}
+			}
+
 /*BLUE BANNER*/
 
 .bannerparent {
@@ -241,14 +353,16 @@ p.donateinfo {
 }
 .faqleftcol {
 	float: left;
-	width: 45%;
+	width: 50%;
 	padding: 20px;
+	box-sizing:	border-box;
 }
 
 .faqrightcol {
 	float: right;
-	width: 45%;
+	width: 50%;
 	padding: 20px;
+	box-sizing:	border-box;
 }
 
 .faqcontent {
@@ -260,6 +374,16 @@ p.donateinfo {
 .faqcontent > h2 {
 	color: #600b0b;
 }
+
+			@media only screen and (max-width: 550px) {
+				.faqleftcol {
+					width: 100%;
+				}
+
+				.faqrightcol {
+					width: 100%;
+				}
+			}
 
 /**/
 

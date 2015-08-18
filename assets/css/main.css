@@ -22,11 +22,11 @@ html, body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: georgia;
+	color: #600b0b;
 }
 
 p {
 	font-family: helvetica;
-<<<<<<< HEAD
 	font-size: 16px;
 	line-height: 23px;
 }
@@ -35,14 +35,3 @@ a {
 	color: #600b0b;
 	text-decoration: none;
 }
-
-a:hover {
-	color: #29405A;
-}
-=======
-	font-size: 12px;
-	line-height: 17px;
-}
-
-
->>>>>>> 392bdacce1ba38c897fb7c5154c64a7828a3f2d7

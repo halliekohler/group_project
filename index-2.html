@@ -5,6 +5,8 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/top_3.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bottom_3.css">
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	</head>
 	<body>
 
@@ -12,6 +14,7 @@
 		
 		<div id="headerfixed">
 			<div class="navbar">
+				<div id="navicon"></div>
 				<nav>
 					<ul>
 						<li><a class="navbutton" href="#home">Home</a></li>
@@ -25,7 +28,7 @@
 
 <!-- DONATE HOVER SECTION -->
 
-			<!-- <div id="donatemouse">
+			<div id="donatehover">
 				<h1 class="whiteondark">Select an Amount</h1>
 				<br>
 				<div class="amountbutton">
@@ -49,20 +52,20 @@
 				<div class="amountbutton">
 					<form>
 						<h2 class="whiteondark">$ <type="text" contenteditable="true">Other</h2>
-						<input class="submitbutton" type="submit" value="submit">
+						<!-- <input class="submitbutton" type="submit" value="submit"> -->
 					</form>
 				</div>
 				<div class="amountsubmit">
 					<form>
 						<h2 class="whiteondark" type="submit" value=" submit">Continue</h2>
-						<input class="submitbutton" type="submit" value="submit">
+						<!-- <input class="submitbutton" type="submit" value="submit"> -->
 					</form>
 				</div>
 
 				<div>
 					<p class="donateinfo" id="vertpadding">Thank you for supporting our lifesaving work.</p>
 					<p class="donateinfo">The ability to respond quickly to medical humanitarian emergencies is crucial to saving more lives. Unrestricted funds allow us to allocate our resources most efficiently and where the needs are greatest.</p>
-				</div> -->
+				</div>
 
 <!-- DONATE TAB VISIBLE -->
 
@@ -84,8 +87,8 @@
 			<div class="homebanneroverlay">
 			</div>
 			<div class="homebannertext">
-				<h1 style="font-family: helvetica !important; 	font-weight: 400; font-size: 28px; margin-bottom: 0;">WE CAN'T DO THIS WITHOUT YOUR HELP</h1>
-				<h1 style="font-family: helvetica !important; 	font-weight: 800; font-size: 54px; margin-top: 10px;">HELP US FIND A CURE</h1>
+				<h1 class="bannertextsmall">WE CAN'T DO THIS WITHOUT YOUR HELP</h1>
+				<h1 class="bannertextlarge">HELP US FIND A CURE</h1>
 				<!-- <div class="textblock-banner1">
 					<h1>HELP US FIND A CURE</h1>
 				</div>
@@ -159,6 +162,198 @@
 				</div>
 			</div>
 		</div>
+
+<!-- SECOND HALF BEGINNING -->
+
+		<div class="bannerparent">
+			<div class="bannerchild">
+				<p class="bannertext" style="padding-top: 10px"><b style="font-size: 25px;">Statistics</p>
+			</div>
+		</div>
+		
+		<div id ="statistics_top">
+			<div class = "content_wrapper">
+				
+				<div class = "numbers">
+					<h2>Numbers</h2>
+						<table>
+						  <tr>
+						    <td> </td>
+						    <td><span class = "strong">Cases</span></td> 
+						    <td><span class = "strong">Deaths</span></td>
+						  </tr>
+						  <tr>
+						    <td><span class = "strong">Guinea</span></td>
+						    <td>3,760</td> 
+						    <td>2,506</td>
+						  </tr>
+						  <tr>
+						    <td><span class = "strong">Liberia</span></td>
+						    <td>10,666 + 7*</td> 
+						    <td>4,806 + 2</td>
+						  </tr>
+						   <tr>
+						    <td><span class = "strong">Sierra Leone</span></td>
+						    <td>13,209</td> 
+						    <td>3,947</td>
+						  </tr>
+						  <tr>
+						    <td><span class = "strong">Total</span></td>
+						    <td><span class = "strong">27,642</span></td> 
+						    <td><span class = "strong">11,261</span></td>
+						   </tr>
+						</table>
+					<p>
+						* new cases in Liberia as of June 6 include six confirmed cases and one probable case.
+					</p>
+					<p>
+						Data are based on official information reported by Ministries of Health. These numbers are subject to change due to ongoing reclassification, retrospective investigation, and availability of laboratory results. The figures are underestimated.
+					</p>
+				</div>
+
+
+				<div class = "msf">
+					<h2>MSF Staff on the Ground<br> <span style="font-size:12px">(as of July 16, 2015)</span></h6>
+
+					<p>
+						<span class = "strong">Guinea:</span> 40 international, approximately 1,100 national
+					</p>
+					<p>
+						<span class = "strong">Liberia:</span> 23 international, around 260 national
+					</p>
+					<p>
+						<span class = "strong">Sierra Leone:</span> 29 international, around 400 national
+					</p>
+					<p>
+						<span class = "strong">Total:</span> 92 international, around 1,760 national
+					</p>
+				</div>
+				
+				
+				<div class = "maps">
+						<h2><a href = "http://maps.who.int/MapGallery/" target="_blank"> Maps </a></h2>
+						<a href = "http://maps.who.int/MapGallery/" target="_blank"><img style="width: 246px;" src = "./assets/images/img3.png"></a>
+				</div>
+			</div>
+		</div>
+		
+		<div id = "statistics_bottom">
+			<div class = "sources_wrapper">	
+				<div class = "sources">
+					<nav>
+						<ul class= "sources_nav">
+							<li class = "source_link"> <h2><span style= "color: white">Sources:</span></h2>
+							</li>
+							<li class = "source_link"> <a href = "http://apps.who.int/ebola/ebola-situation-reports" target="_blank">World Health Organization</a>
+							</li>
+							<li class = "source_link"> <a href= "http://www.doctorswithoutborders.org/our-work/medical-issues/ebola" target="_blank">Doctors Without Borders</a>
+							</li>
+						</ul>
+					</nav>
+				</div>				
+			</div>
+		</div>
+
+
+		
+		
+
+		<div id = "gallery">
+
+			<div class = "content_wrapper">
+				<div class="photos">
+					<div>
+						<img src="./assets/images/gal_img1.jpg" width="200px;">
+					</div>
+					<div>		
+						<img src="./assets/images/gal_img2.jpg" width="200px;">
+					</div>
+					<div>	
+						<img src ="./assets/images/gal_img3.jpg" width="200px;">
+					</div>
+					<div>
+						<img src="./assets/images/gal_img4.jpg" width="200px;">
+					</div>		
+					<div>	
+						<img src ="./assets/images/gal_img5.jpg" width="200px;">
+					</div>
+					<div>
+						<img src="./assets/images/gal_img6.jpg" width="200px;">
+					</div>
+					<div>	
+						<img src ="./assets/images/gal_img7.jpg" width="200px;">
+					</div>
+					<div>
+						<img src="./assets/images/gal_img8.jpg" width="200px;">
+					</div>	
+					<div>	
+						<img src ="./assets/images/gal_img9.jpg" width="200px;">
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+
+		<div id = "contact">
+
+			<div id="form-main">
+			  <div id="form-div">
+			    <form class="form">
+			      
+			      <p class="name">
+			        <input name="name" type="text" class="feedback-input" placeholder="Name" />
+			      </p>
+			      
+			      <p class="email">
+			        <input name="email" type="text" class="feedback-input" placeholder="Email" />
+			      </p>
+			      
+			      <p class="text">
+			        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+			      </p>
+			      
+			      
+			      <div class="submit">
+			        <input type="submit" value="SEND" id="button-blue"/>
+		  
+		      </div>
+		    </form>
+		  </div>
+
+		</div>
+
+
+		<script>
+			$(document).ready(function () {
+				var height = $("#donatehover").outerHeight() * -1;
+				$("#donatehover").css("top", height);
+
+				
+				$("#donatehover").mouseenter(function(){
+					$(this).animate({top:0});
+				});
+
+				$("#donatehover").mouseleave(function(){
+					$(this).animate({top: height});
+				});
+
+				$(window).resize( function() {
+				   height = $("#donatehover").outerHeight() * -1;
+				$("#donatehover").css("top", height);
+				});
+
+
+				//donate buttons background change on click
+
+				$(".amountbutton").click( function() {
+					$(this).css("background", "#29405A");
+				});
+
+
+			});
+		</script>
 
 	</body>
 </html>
